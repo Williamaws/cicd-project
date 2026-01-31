@@ -3,6 +3,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello from CI/CD project!"
+    return "Hello from CI/CD pipline v2!"
 
 app.run(host="0.0.0.0", port=5000)
